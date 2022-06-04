@@ -5,7 +5,7 @@
 int main()
 {
 	sf::RenderWindow window(sf::VideoMode(800, 600), "Hello, SFML world!");
-	window.setFramerateLimit(0.5);
+	window.setFramerateLimit(60);
 
 	int rows = 10;
 	int columns = 10;
